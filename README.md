@@ -166,6 +166,10 @@ html, body{
 
 ##Version History
 
+1.0.1
+
+- Added preventDefault() on clicked menu button
+
 1.0.0
 
 - Added auto-collapsable submenus.

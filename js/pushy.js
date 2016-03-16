@@ -134,7 +134,8 @@
 		toggleSubmenu();
 
 		//toggle menu
-		menuBtn.on('click', function(){
+		menuBtn.on('click', function(e){
+			e.preventDefault();
 			togglePushy();
 		});
 		//close menu when clicking site overlay
@@ -164,7 +165,8 @@
 		toggleSubmenuFallback();
 
 		//toggle menu
-		menuBtn.on('click', function(){
+		menuBtn.on('click', function(e){
+			e.preventDefault();
 			if (opened) {
 				closePushyFallback();
 				opened = false;
